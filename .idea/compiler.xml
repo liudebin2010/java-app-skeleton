@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app-elasticsearch" />
+        <module name="app-redis" />
+        <module name="app-dubbo-interface" />
+        <module name="app-cassandra-reactive" />
+        <module name="app-couchbase" />
+        <module name="app-cassandra" />
+        <module name="app-prometheus" />
+        <module name="app-neo4j" />
+        <module name="app-dubbo-server" />
+        <module name="app-geode" />
+        <module name="app-mongodb-reactive" />
+        <module name="app-couchbase-reactive" />
+        <module name="app-dubbo-client" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app-cassandra" options="-parameters" />
+      <module name="app-cassandra-reactive" options="-parameters" />
+      <module name="app-couchbase" options="-parameters" />
+      <module name="app-couchbase-reactive" options="-parameters" />
+      <module name="app-dubbo-client" options="-parameters" />
+      <module name="app-dubbo-server" options="-parameters" />
+      <module name="app-elasticsearch" options="-parameters" />
+      <module name="app-geode" options="-parameters" />
+      <module name="app-mongodb-reactive" options="-parameters" />
+      <module name="app-neo4j" options="-parameters" />
+      <module name="app-prometheus" options="-parameters" />
+      <module name="app-redis" options="-parameters" />
+    </option>
+  </component>
+</project>

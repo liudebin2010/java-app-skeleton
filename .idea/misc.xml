@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/app-es/pom.xml" />
+        <option value="$PROJECT_DIR$/app-prometheus/pom.xml" />
+        <option value="$PROJECT_DIR$/app-dubbo/app-dubbo-server/pom.xml" />
+        <option value="$PROJECT_DIR$/app-dubbo/app-dubbo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/app-nosql/app-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/app-nosql/app-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/app-nosql/app-cassdrad/app-cassandra/pom.xml" />
+        <option value="$PROJECT_DIR$/app-nosql/app-geode/pom.xml" />
+        <option value="$PROJECT_DIR$/app-nosql/app-cassandra/pom.xml" />
+        <option value="$PROJECT_DIR$/app-nosql/app-neo4j/pom.xml" />
+        <option value="$PROJECT_DIR$/app-nosql/app-mongodb-reactive/pom.xml" />
+        <option value="$PROJECT_DIR$/app-nosql/app-couch/app-couchbase/pom.xml" />
+        <option value="$PROJECT_DIR$/app-nosql/app-couchbase-reactive/pom.xml" />
+        <option value="$PROJECT_DIR$/app-nosql/app-couchbase/pom.xml" />
+        <option value="$PROJECT_DIR$/app-nosql/app-cassandra-reactive/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
