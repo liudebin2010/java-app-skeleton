@@ -12,7 +12,6 @@
         <module name="app-dubbo-interface" />
         <module name="app-cassandra-reactive" />
         <module name="app-couchbase" />
-        <module name="app-cassandra" />
         <module name="app-prometheus" />
         <module name="app-neo4j" />
         <module name="app-dubbo-server" />
@@ -22,6 +21,9 @@
         <module name="app-dubbo-client" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app-cassandra" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

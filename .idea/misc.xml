@@ -13,7 +13,6 @@
         <option value="$PROJECT_DIR$/app-nosql/app-redis/pom.xml" />
         <option value="$PROJECT_DIR$/app-nosql/app-cassdrad/app-cassandra/pom.xml" />
         <option value="$PROJECT_DIR$/app-nosql/app-geode/pom.xml" />
-        <option value="$PROJECT_DIR$/app-nosql/app-cassandra/pom.xml" />
         <option value="$PROJECT_DIR$/app-nosql/app-neo4j/pom.xml" />
         <option value="$PROJECT_DIR$/app-nosql/app-mongodb-reactive/pom.xml" />
         <option value="$PROJECT_DIR$/app-nosql/app-couch/app-couchbase/pom.xml" />
