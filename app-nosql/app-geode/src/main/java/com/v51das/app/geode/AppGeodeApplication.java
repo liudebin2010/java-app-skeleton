@@ -1,8 +1,18 @@
 package com.v51das.app.geode;
 
+import com.v51das.app.geode.domain.Author;
+import com.v51das.app.geode.repository.AuthorRepository;
+import org.apache.geode.cache.client.ClientRegionShortcut;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.gemfire.config.annotation.*;
+import org.springframework.data.gemfire.repository.config.EnableGemfireRepositories;
 
+//@EnableIndexing(define = true)
+@EnableEntityDefinedRegions(basePackageClasses = Author.class,clientRegionShortcut= ClientRegionShortcut.CACHING_PROXY)
+@EnableGemfireRepositories(basePackageClasses = AuthorRepository.class)
+@EnableClusterConfiguration(useHttp = true,requireHttps = false)
+//@ClientCacheApplication(subscriptionEnabled = true)
 @SpringBootApplication
 public class AppGeodeApplication {
 
