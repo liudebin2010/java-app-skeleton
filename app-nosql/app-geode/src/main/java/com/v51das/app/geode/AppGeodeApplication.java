@@ -8,11 +8,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.gemfire.config.annotation.*;
 import org.springframework.data.gemfire.repository.config.EnableGemfireRepositories;
 
-//@EnableIndexing(define = true)
+@EnableIndexing
+@EnablePdx(persistent=true)
 @EnableEntityDefinedRegions(basePackageClasses = Author.class,clientRegionShortcut= ClientRegionShortcut.CACHING_PROXY)
 @EnableGemfireRepositories(basePackageClasses = AuthorRepository.class)
-@EnableClusterConfiguration(useHttp = true,requireHttps = false)
-//@ClientCacheApplication(subscriptionEnabled = true)
+//@EnableClusterConfiguration(useHttp = true,requireHttps = false)
+@ClientCacheApplication
 @SpringBootApplication
 public class AppGeodeApplication {
 

@@ -21,4 +21,10 @@ public class AuthorController {
     public Flux<Author> getAuthor(){
         return reactor.core.publisher.Flux.fromIterable(authorRepository.findAll());
     }
+
+    @GetMapping("/get/{id}")
+    public String delAuthor(@PathVariable Long id){
+        authorRepository.deleteById(id);
+        return "success";
+    }
 }
